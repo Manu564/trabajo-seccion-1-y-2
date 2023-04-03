@@ -1,0 +1,69 @@
+@import '../../../global_vars_scss/vars.scss';
+
+body {
+    background-image: url("/imgs/menu_pets.jpg");
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: $color-header;
+    height: 90px;
+    width: 100%;
+
+    nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            gap: 90px;
+            margin-top: 25px;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                height: 50px;
+                width: 100px;
+
+                &:hover {
+                    background-color: lighten($color-header, 10%);
+                }
+
+                a {
+                    justify-items: center;
+                    text-align: center;
+                    text-decoration: none;
+                    color: $color-texto;
+                }
+            }
+        }
+    }
+}
+
+span{
+    color: $color-texto ;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 40px;
+    margin-left: $distancia;
+    margin-top: $distancia;
+}
+#api{
+    margin-top: 10px;
+    margin-left: $distancia;
+    font-size: $distancia;
+    color: blue;
+}

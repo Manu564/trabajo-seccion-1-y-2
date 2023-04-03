@@ -1,0 +1,76 @@
+body {
+  background-image: url("/imgs/menu_pets.jpg");
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #2e1a06;
+  height: 90px;
+  width: 100%;
+}
+header nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 25px;
+}
+header nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100px;
+}
+header nav ul li:hover {
+  background-color: #5b340c;
+}
+header nav ul li a {
+  justify-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+form {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+form div {
+  align-items: center;
+}
+form div label {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+form div select {
+  margin-top: 15px;
+}
+form button {
+  margin-top: 15px;
+}
+
+#divTabla img {
+  margin-left: 30px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+  max-width: 800px;
+  max-height: 800px;
+}/*# sourceMappingURL=stylepets.css.map */
